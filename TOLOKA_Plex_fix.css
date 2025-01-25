@@ -1,0 +1,37 @@
+// https://toloka.to/
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+body {
+  background-image: unset;
+  background-color: lightgray;
+  height: auto;
+}
+
+div#overlay-background {
+  background-image: unset;
+  background-color: darkseagreen;
+}
+
+a.topictitle {
+  color: #0b5394;
+  font-size: 16px;
+  font-family: Roboto Condensed;
+  font-weight: 500;
+}
+
+span.gengold {
+  color: #d9d9d9;
+  
+}
+
+span.genred {
+  color: #d9d9d9;
+}
+
+a.forumlink {
+  color: #0b5394;
+  font-size: 16px;
+  font-family: Roboto Condensed;
+  font-weight: 500;
+}
