@@ -1,0 +1,11 @@
+// https://my.monika.world/
+
+.modal_create_ticket_form textarea,
+#messageTT {
+  resize: vertical;
+  min-height: 200px;
+  box-shadow: inset 0px 0px 10px gainsboro;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.2;
+}
