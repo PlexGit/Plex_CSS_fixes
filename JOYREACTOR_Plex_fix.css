@@ -1,0 +1,86 @@
+// https://joyreactor.cc/
+
+#container {
+  background-image: none;
+}
+
+#container:before {
+    background-image: none;
+}
+
+#container:after {
+    background-image: none;
+}
+
+div#bg, a .logo{
+  display: none !important;
+}
+
+body.joy:before, body.joy:after {
+  content:none;
+}
+
+button.expandable-post-content {
+    height: 36px;
+    border-top: 2px solid rgb(253, 178, 1);
+    background-color: yellowgreen;
+    opacity: .8;
+}
+
+:is(.dark button.expandable-post-content) {
+    background-color: #0063b4;
+}
+
+:is(.ant-btn-default.ant-btn) {
+    --tw-bg-opacity: .2;
+}
+
+:is(.dark .post-card) {
+    --tw-bg-opacity: .2;
+}
+
+.ant-tag.tag-reactor:is(.dark *) {
+    --tw-bg-opacity: .3;
+}
+
+:is(.dark .comment) {
+    --tw-bg-opacity: .2;
+}
+
+.bg-gray-commentlight {
+  background-color: #7f7f7f40;
+}
+
+.dark .comment.highlighted-new:not(.highlighted-anchor) {
+    background-color: darkslategray;
+    background-image: unset;
+}
+
+.dark .comment.highlighted-anchor {
+    background-color: #784212;
+    background-image: unset;
+}
+
+[class*=" tag-reactor-"] {
+    background-image: unset !important;
+}
+
+:is(.dark .footer) {
+    --tw-bg-opacity: .5;
+}
+
+.ant-btn.ant-btn-default.ant-btn-lg {
+    opacity: .5;
+}
+
+.ant-tag.tag-reactor:not(.tag-reactor-blocked)>a:is(.dark *) {
+    --tw-text-opacity: .6;
+}
+
+.dark .comment-footer * {
+    color: darkgoldenrod;
+}
+
+.comment-footer * {
+    color: saddlebrown;
+}
