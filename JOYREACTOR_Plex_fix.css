@@ -84,3 +84,7 @@ button.expandable-post-content {
 .comment-footer * {
     color: saddlebrown;
 }
+
+.comment-with-side-lines.left-0.w-3 {
+    border-left-width: 2px;
+}
