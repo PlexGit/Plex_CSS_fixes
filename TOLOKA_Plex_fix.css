@@ -29,7 +29,7 @@ span.genred {
   color: #d9d9d9;
 }
 
-a.forumlink {
+a.forumlink, a.genmed {
   color: #0b5394;
   font-size: 16px;
   font-family: Roboto Condensed;
