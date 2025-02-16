@@ -21,7 +21,7 @@ span.genred {
   color: #d9d9d9;
 }
 
-a.topictitle, a.forumlink, a.genmed {
+a.topictitle, a.forumlink, td.topictitle.genmed a.genmed {
   color: #0b5394;
 }
 
