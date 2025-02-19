@@ -61,7 +61,9 @@ button.expandable-post-content {
     background-image: unset;
 }
 
-.comment-form input:is(.dark *), .comment-form textarea:is(.dark *) {
+.comment-form input:is(.dark *),
+.comment-form textarea:is(.dark *),
+.dark\:bg-gray-commentdarknew:is(.dark *) {
     --tw-bg-opacity: .3;
 }
 
