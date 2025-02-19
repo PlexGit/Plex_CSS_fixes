@@ -67,6 +67,10 @@ button.expandable-post-content {
     --tw-bg-opacity: .3;
 }
 
+.post-card .post-content {
+    box-shadow: inset 0px 0px 10px gainsboro;
+}
+
 [class*=" tag-reactor-"] {
     background-image: unset !important;
 }
