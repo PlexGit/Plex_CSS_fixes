@@ -67,7 +67,9 @@ button.expandable-post-content {
     --tw-bg-opacity: .3;
 }
 
-.post-card .post-content {
+.comment-form input,
+.comment-form textarea,
+.dark\:bg-gray-commentdarknew {
     box-shadow: inset 0px 0px 10px gainsboro;
 }
 
