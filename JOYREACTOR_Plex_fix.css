@@ -61,6 +61,10 @@ button.expandable-post-content {
     background-image: unset;
 }
 
+.comment-form input:is(.dark *), .comment-form textarea:is(.dark *) {
+    --tw-bg-opacity: .3;
+}
+
 [class*=" tag-reactor-"] {
     background-image: unset !important;
 }
