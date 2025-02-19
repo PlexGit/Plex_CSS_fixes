@@ -73,6 +73,10 @@ button.expandable-post-content {
     box-shadow: inset 0px 0px 10px gainsboro;
 }
 
+.dark\:bg-gray-lighter:is(.dark *) {
+    background-color: rgb(60 80 70);
+}
+
 [class*=" tag-reactor-"] {
     background-image: unset !important;
 }
