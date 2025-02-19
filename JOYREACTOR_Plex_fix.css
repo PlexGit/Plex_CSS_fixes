@@ -77,6 +77,11 @@ button.expandable-post-content {
     background-color: rgb(60 80 70);
 }
 
+a.truncate.font-semibold.underline.hover\:underline.pr-4.pl-1.sm\:pl-2 {
+    color: rgb(30, 140, 220) !important;
+    text-decoration: none !important;
+}
+
 [class*=" tag-reactor-"] {
     background-image: unset !important;
 }
