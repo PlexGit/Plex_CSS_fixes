@@ -36,7 +36,7 @@ button.expandable-post-content {
 }
 
 .dark .comment.highlighted-new:not(.highlighted-anchor) .ant-btn.ant-btn-default {
-    background-color: rgb(53 53 53 / .2);
+    background-color: rgb(53 53 53 / .5);
 }
 
 :is(.dark .post-card) {
@@ -44,7 +44,7 @@ button.expandable-post-content {
 }
 
 .ant-tag.tag-reactor:is(.dark *) {
-    --tw-bg-opacity: .3;
+    --tw-bg-opacity: .4;
 }
 
 :is(.dark .comment) {
