@@ -36,7 +36,7 @@ button.expandable-post-content {
 }
 
 .dark .comment.highlighted-new:not(.highlighted-anchor) .ant-btn.ant-btn-default {
-    background-color: rgb(53 53 53 / .5);
+    background-color: rgb(53 53 53 / .4);
 }
 
 :is(.dark .post-card) {
