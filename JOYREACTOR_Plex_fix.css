@@ -44,7 +44,7 @@ button.expandable-post-content {
 }
 
 .ant-tag.tag-reactor:is(.dark *) {
-    --tw-bg-opacity: .4;
+    --tw-bg-opacity: .3;
 }
 
 :is(.dark .comment) {
