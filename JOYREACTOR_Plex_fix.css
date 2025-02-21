@@ -28,11 +28,15 @@ button.expandable-post-content {
 }
 
 :is(.dark button.expandable-post-content) {
-    background-color: #009999;
+    background-color: #408080;
 }
 
 :is(.ant-btn-default.ant-btn) {
     --tw-bg-opacity: .2;
+}
+
+.dark .comment.highlighted-new:not(.highlighted-anchor) .ant-btn.ant-btn-default {
+    background-color: rgb(53 53 53 / .2);
 }
 
 :is(.dark .post-card) {
@@ -52,7 +56,7 @@ button.expandable-post-content {
 }
 
 .dark .comment.highlighted-new:not(.highlighted-anchor) {
-    background-color: darkslategray;
+    background-color: #344b4b;
     background-image: unset;
 }
 
