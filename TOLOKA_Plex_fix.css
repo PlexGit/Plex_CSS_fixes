@@ -31,3 +31,7 @@ a.topictitle, a.forumlink, td.topictitle.genmed a.genmed, a.seedmed {
   font-weight: 500;
   text-wrap: balance;
 }
+
+td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {
+  background-image: unset;
+}
