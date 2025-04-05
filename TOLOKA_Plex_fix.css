@@ -35,3 +35,10 @@ a.topictitle, a.forumlink, td.topictitle.genmed a.genmed, a.seedmed {
 td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {
   background-image: unset;
 }
+
+.announce-line {
+    line-height: 12px;
+    text-wrap: balance;
+    text-indent: -12ch;
+    padding-left: 12ch;
+}
