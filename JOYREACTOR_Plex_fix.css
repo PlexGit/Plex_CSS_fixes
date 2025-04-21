@@ -110,8 +110,9 @@ a.truncate.font-semibold.underline.hover\:underline.pr-4.pl-1.sm\:pl-2 {
     color: saddlebrown;
 }
 
-.comment-with-side-lines.left-0.w-3 {
+.comment-with-side-lines, .comment-with-side-lines:is(.dark *) {
     border-left-width: 2px;
+    --tw-border-opacity: .8;
 }
 
 .comment {
