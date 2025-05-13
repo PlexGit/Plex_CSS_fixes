@@ -115,6 +115,6 @@ a.truncate.font-semibold.underline.hover\:underline.pr-4.pl-1.sm\:pl-2 {
     --tw-border-opacity: .8;
 }
 
-.comment {
+.comment, .comment:is(.dark *) {
     --tw-text-opacity: .9;
 }
